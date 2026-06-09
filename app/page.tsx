@@ -63,10 +63,10 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="w-full max-w-2xl mx-auto px-4 py-8 space-y-6">
+      <main className="w-full max-w-4xl mx-auto px-4 py-8 space-y-6">
         <TodoForm onAdd={handleAdd} />
 
-        <div className="grid gap-6 md:grid-cols-[1fr_280px]">
+        <div className="grid gap-8 md:grid-cols-[1fr_350px]">
           <section>
             {loading ? (
               <div className="flex items-center justify-center py-12 text-sm text-zinc-400">
